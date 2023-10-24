@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'rend2973_ppg' );
 
 /** Database username */
-define( 'DB_USER', 'rend2973' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '3CyNjX8umGBt91' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );

@@ -9,7 +9,6 @@ deployment:
     - /bin/cp wp-activate.php $DEPLOYPATH
     - /bin/cp wp-blog-header.php $DEPLOYPATH
     - /bin/cp wp-comments-post.php $DEPLOYPATH
-    - /bin/cp wp-config.php $DEPLOYPATH
     - /bin/cp wp-config-sample.php $DEPLOYPATH
     - /bin/cp wp-cron.php $DEPLOYPATH
     - /bin/cp wp-links-opml.php $DEPLOYPATH
