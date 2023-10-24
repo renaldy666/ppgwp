@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rend2973/public_html/
+    - export DEPLOYPATH=/home/rend2973/public_html/ppg
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp license.txt $DEPLOYPATH
