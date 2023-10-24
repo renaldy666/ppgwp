@@ -21,6 +21,6 @@ deployment:
     - /bin/cp wp-trackback.php $DEPLOYPATH
     - /bin/cp xmlrpc.php $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
-    - /bin/cp wp-admin $DEPLOYPATH
-    - /bin/cp wp-content $DEPLOYPATH
-    - /bin/cp wp-includes $DEPLOYPATH
+    - /bin/cp -R wp-admin $DEPLOYPATH
+    - /bin/cp -R wp-content $DEPLOYPATH
+    - /bin/cp -R wp-includes $DEPLOYPATH
